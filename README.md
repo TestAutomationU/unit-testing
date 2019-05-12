@@ -1,4 +1,4 @@
-# unit-testing
+# Testing From The Inside: Unit Testing Edition
 Code from course "Testing From The Inside: Unit Testing Edition" by Tariq King on Test Automation University
 https://testautomationu.applitools.com/unit-testing
 
