@@ -56,3 +56,12 @@ public class SavingsAccountTest {
      */
     @Test
     public void withdrawingAmountGreaterThanBalance_Throws_InsufficientFundsException() throws InsufficientFundsException {
+       try {
+            savings.withdraw(200.00);
+            fail("Expected Insufficient Funds Exception but none is thrown");
+        } catch (InsufficientFundsException e){
+            // Then
+            assertEquals(savings.getBalance(), 100.00);
+        }
+    }
+}
